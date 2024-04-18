@@ -1,12 +1,11 @@
+import React from 'react';
 import './App.css';
+import Blockchain from './Blockchain';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <button class="header-button">Home</button>
-        <button class="header-button">Services</button>
-      </header>
+      <Blockchain />
     </div>
   );
 }
